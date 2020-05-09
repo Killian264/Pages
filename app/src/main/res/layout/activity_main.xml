@@ -7,6 +7,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/locationView"
+        android:layout_width="243dp"
+        android:layout_height="32dp"
+        android:text="Sioux Falls"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
         android:id="@+id/headerView"
         android:layout_width="140dp"
         android:layout_height="54dp"
@@ -55,7 +70,6 @@
         android:id="@+id/errorView"
         android:layout_width="238dp"
         android:layout_height="16dp"
-        android:text="Error: Input is invalid."
         android:textAlignment="center"
         android:textColor="#FF0000"
         android:textStyle="italic"
@@ -77,4 +91,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.14" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
